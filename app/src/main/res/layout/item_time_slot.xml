@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/const_layout3"
+    android:layout_width="wrap_content"
+    android:layout_height="26.39dp"
+    android:layout_marginStart="14.14dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/startTimePM"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SmallSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5.73dp"
+        android:layout_marginTop="8.4dp"
+        android:layout_marginBottom="9.98dp"
+        android:text="10:00"
+        android:textColor="#484848"
+        android:textSize="8sp" />
+
+    <View
+        android:id="@+id/verticalDivider3"
+        app:layout_constraintBottom_toBottomOf="@id/startTimePM"
+        app:layout_constraintStart_toEndOf="@id/startTimePM"
+        app:layout_constraintTop_toTopOf="@id/startTimePM"
+        android:layout_width="1dp"
+        android:layout_height="12.99dp"
+        android:layout_marginStart="8dp"
+        android:background="#33707070" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtPM"
+        app:layout_constraintBottom_toBottomOf="@id/verticalDivider3"
+        app:layout_constraintStart_toEndOf="@id/verticalDivider3"
+        app:layout_constraintTop_toTopOf="@id/verticalDivider3"
+        tools:ignore="SmallSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="PM"
+        android:textColor="#484848"
+        android:textSize="8sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtToPM"
+        app:layout_constraintBottom_toBottomOf="@id/txtPM"
+        app:layout_constraintStart_toEndOf="@id/txtPM"
+        app:layout_constraintTop_toTopOf="@id/txtPM"
+        tools:ignore="SmallSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="To"
+        android:textColor="#9E484848"
+        android:textSize="8sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/endTimePM"
+        app:layout_constraintBottom_toBottomOf="@id/txtToPM"
+        app:layout_constraintStart_toEndOf="@id/txtToPM"
+        app:layout_constraintTop_toTopOf="@id/txtToPM"
+        tools:ignore="SmallSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7.91dp"
+        android:text="12:00"
+        android:textColor="#484848"
+        android:textSize="8sp" />
+
+    <View
+        android:id="@+id/verticalDivider1"
+        app:layout_constraintBottom_toBottomOf="@id/endTimePM"
+        app:layout_constraintStart_toEndOf="@id/endTimePM"
+        app:layout_constraintTop_toTopOf="@id/endTimePM"
+        android:layout_width="1dp"
+        android:layout_height="12.99dp"
+        android:layout_marginStart="8dp"
+        android:background="#33707070" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtPM2"
+        app:layout_constraintBottom_toBottomOf="@id/verticalDivider1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/verticalDivider1"
+        app:layout_constraintTop_toTopOf="@id/verticalDivider1"
+        tools:ignore="SmallSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="9dp"
+        android:text="PM"
+        android:textColor="#484848"
+        android:textSize="8sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
